@@ -5,6 +5,9 @@ import "./Wallet.sol";
 
 contract Dex is Wallet {
 
+    event LimitOrderCreated(address, Side, bytes32, uint, uint);
+    event MarketOrderCreated(address, Side, bytes32, uint);
+
     using SafeMath for uint;
    
     enum Side {
@@ -76,8 +79,10 @@ contract Dex is Wallet {
         }
         
         nextOrderId++;
+        emit LimitOrderCreated(msg.sender, side, ticker, amount, price);
     }
 
+    
     function createMarketOrder(Side side, bytes32 ticker, uint amount) public {
        if(side == Side.SELL){
            require(balances[msg.sender][ticker] >= amount, "Insufficient funds");
@@ -142,7 +147,7 @@ contract Dex is Wallet {
             orders.pop();
         }  
 
-
+        emit MarketOrderCreated(msg.sender, side, ticker, amount);
     }
 
 
