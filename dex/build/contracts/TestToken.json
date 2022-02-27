@@ -78,8 +78,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -122,8 +121,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -136,8 +134,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -198,8 +195,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -212,8 +208,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -226,8 +221,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -7840,16 +7834,16 @@
     "absolutePath": "project:/contracts/Tokens.sol",
     "exportedSymbols": {
       "Context": [
-        1697
+        1719
       ],
       "ERC20": [
-        1572
+        1594
       ],
       "IERC20": [
-        1650
+        1672
       ],
       "IERC20Metadata": [
-        1675
+        1697
       ],
       "TestToken": [
         630
@@ -7879,7 +7873,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 631,
-        "sourceUnit": 1573,
+        "sourceUnit": 1595,
         "src": "36:71:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -7892,7 +7886,7 @@
               "id": 614,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 1572,
+              "referencedDeclaration": 1594,
               "src": "133:5:2"
             },
             "id": 615,
@@ -7907,10 +7901,10 @@
         "id": 630,
         "linearizedBaseContracts": [
           630,
-          1572,
-          1675,
-          1650,
-          1697
+          1594,
+          1697,
+          1672,
+          1719
         ],
         "name": "TestToken",
         "nameLocation": "120:9:2",
@@ -7983,7 +7977,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1389,
+                      "referencedDeclaration": 1411,
                       "src": "205:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8056,7 +8050,7 @@
                   "id": 617,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1572,
+                  "referencedDeclaration": 1594,
                   "src": "161:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8096,16 +8090,16 @@
     "absolutePath": "project:/contracts/Tokens.sol",
     "exportedSymbols": {
       "Context": [
-        1697
+        1719
       ],
       "ERC20": [
-        1572
+        1594
       ],
       "IERC20": [
-        1650
+        1672
       ],
       "IERC20Metadata": [
-        1675
+        1697
       ],
       "TestToken": [
         630
@@ -8135,7 +8129,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 631,
-        "sourceUnit": 1573,
+        "sourceUnit": 1595,
         "src": "36:71:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8148,7 +8142,7 @@
               "id": 614,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 1572,
+              "referencedDeclaration": 1594,
               "src": "133:5:2"
             },
             "id": 615,
@@ -8163,10 +8157,10 @@
         "id": 630,
         "linearizedBaseContracts": [
           630,
-          1572,
-          1675,
-          1650,
-          1697
+          1594,
+          1697,
+          1672,
+          1719
         ],
         "name": "TestToken",
         "nameLocation": "120:9:2",
@@ -8239,7 +8233,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1389,
+                      "referencedDeclaration": 1411,
                       "src": "205:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8312,7 +8306,7 @@
                   "id": 617,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1572,
+                  "referencedDeclaration": 1594,
                   "src": "161:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8413,13 +8407,12 @@
         }
       },
       "links": {},
-      "address": "0x047CAb83E481Bcf238e528cd96Db2953C97A4Bc6",
-      "transactionHash": "0x12e6dbeefe55499e770ff0c6bc5790a31d4e4490a829fc1c99ce35f9dc947c18"
+      "address": "0xDcCf5037F5676aB071ae696B13429f1C2B6D5816",
+      "transactionHash": "0x0b7e62de70e851a2b3ff6bdbaa6392dfe16e879e57e9b0264930d7d11d562f5e"
     }
   },
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-02-27T07:51:21.493Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-02-27T11:13:06.231Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

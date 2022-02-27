@@ -32,6 +32,10 @@ contract Wallet is Ownable {
         IERC20(tokenMap[ticker].tokenAddress).transferFrom(msg.sender, address(this), amount);
     }
 
+    function approveSpend(uint amount, bytes32 ticker) external {
+        IERC20(tokenMap[ticker].tokenAddress).approve(address(this), amount);
+    }
+
     function depositEth() payable external {
         balances[msg.sender][bytes32("ETH")] = balances[msg.sender][bytes32("ETH")].add(msg.value);
     }
